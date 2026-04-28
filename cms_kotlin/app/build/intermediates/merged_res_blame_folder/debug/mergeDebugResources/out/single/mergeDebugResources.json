@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\hijaz\\.gradle\\daemon\\9.0-milestone-1\\com.cms.app-debug-56:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\hijaz\\.gradle\\daemon\\9.0-milestone-1\\com.cms.app-main-58:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "com.cms.app-debug-56:/xml_network_security_config.xml.flat",
+        "source": "com.cms.app-main-58:/xml/network_security_config.xml"
+    }
+]
