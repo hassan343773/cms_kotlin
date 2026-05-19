@@ -10,7 +10,40 @@ data class UserModel(
     val password: String? = null,
     val role: String = "USER"
 ) {
-    val isAdmin: Boolean get() = role == "ADMIN"
+    private fun r(): String = role.trim().uppercase()
+
+    /** Full platform admin (dangerous actions). */
+    val isAdmin: Boolean get() = r() == "ADMIN"
+
+    /** Sees org-wide complaint queues (paginated / filtered APIs), not only "my submissions". */
+    val canViewGlobalComplaintQueue: Boolean get() = r() in setOf("ADMIN", "MANAGER", "CEO", "SUPPORT")
+
+    /** Can update workflow status on a complaint. */
+    val canModerateComplaintStatus: Boolean get() = r() in setOf("ADMIN", "MANAGER", "SUPPORT", "CEO")
+
+    /** Can remove complaints (usually admin-only). */
+    val canDeleteComplaints: Boolean get() = r() == "ADMIN"
+
+    val isSupport: Boolean get() = r() == "SUPPORT"
+    val isManager: Boolean get() = r() == "MANAGER"
+
+    /** Assignee, progress %, and evidence images — staff only (not end customers). */
+    val canManageAssignmentAndProgress: Boolean get() = r() in setOf("ADMIN", "MANAGER", "SUPPORT", "CEO")
+
+    /** Can open the org profile directory (derived from complaints until a users API exists). */
+    val canBrowseProfileDirectory: Boolean get() = canViewGlobalComplaintQueue
+
+    /** Whether [viewer] may open a profile card for [target] (not including self; self is always allowed). */
+    fun canViewProfileOf(target: UserModel): Boolean {
+        if (!canBrowseProfileDirectory) return false
+        val t = target.r()
+        return when {
+            isAdmin -> true
+            isManager || r() == "CEO" -> t != "ADMIN"
+            isSupport -> t in setOf("USER", "CUSTOMER", "SUPPORT", "MANAGER", "ASSIGNEE")
+            else -> false
+        }
+    }
 }
 
 data class LoginRequest(
@@ -40,13 +73,30 @@ data class ComplaintModel(
     val status: String = "PENDING",
     val createdAt: String? = null,
     val updatedAt: String? = null,
-    val user: UserModel? = null
+    val user: UserModel? = null,
+    /** From server when backend persists staff assignment (syncs to customer). */
+    val assignee: String? = null,
+    val progressPercent: Int? = null
 )
 
 data class ComplaintRequest(
     val title: String,
     val description: String,
-    val status: String = "PENDING"
+    val status: String = "PENDING",
+    val assignee: String? = null,
+    val progressPercent: Int? = null
+)
+
+/** Server thread message (GET/POST `/complaints/{id}/messages`). */
+data class ComplaintMessageDto(
+    val id: Long? = null,
+    val author: String? = null,
+    val message: String? = null,
+    val createdAt: String? = null
+)
+
+data class PostCommentBody(
+    val message: String
 )
 
 data class PaginatedResponse(

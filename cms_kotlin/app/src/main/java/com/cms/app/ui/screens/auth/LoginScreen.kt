@@ -74,8 +74,9 @@ fun LoginScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .statusBarsPadding()
                     .background(Brush.linearGradient(listOf(Primary, Color(0xFF2563EB))))
-                    .padding(start = 24.dp, end = 24.dp, top = 64.dp, bottom = 40.dp)
+                    .padding(start = 24.dp, end = 24.dp, top = 20.dp, bottom = 40.dp)
             ) {
                 Column {
                     Box(
@@ -170,7 +171,8 @@ fun LoginScreen(
 
                 Row(
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.Center
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text("Don't have an account? ", color = TextSecondary, fontSize = 14.sp)
                     TextButton(

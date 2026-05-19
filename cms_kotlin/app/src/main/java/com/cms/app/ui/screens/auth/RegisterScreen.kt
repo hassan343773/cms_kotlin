@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.cms.app.ui.screens.auth
 
 import androidx.compose.foundation.background
@@ -43,7 +45,7 @@ fun RegisterScreen(
     var password by remember { mutableStateOf("") }
     var confirmPassword by remember { mutableStateOf("") }
     var passwordVisible by remember { mutableStateOf(false) }
-    var selectedRole by remember { mutableStateOf("USER") }
+    var selectedRole by remember { mutableStateOf("CUSTOMER") }
 
     var usernameError by remember { mutableStateOf("") }
     var passwordError by remember { mutableStateOf("") }
@@ -92,8 +94,9 @@ fun RegisterScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .statusBarsPadding()
                     .background(Brush.linearGradient(listOf(Secondary, Color(0xFF9061F9))))
-                    .padding(start = 24.dp, end = 24.dp, top = 52.dp, bottom = 32.dp)
+                    .padding(start = 24.dp, end = 24.dp, top = 12.dp, bottom = 28.dp)
             ) {
                 Column {
                     IconButton(
@@ -232,7 +235,11 @@ fun RegisterScreen(
 
                 Spacer(Modifier.height(14.dp))
 
-                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
                     Text("Already have an account? ", color = TextSecondary, fontSize = 14.sp)
                     TextButton(onClick = onNavigateToLogin, contentPadding = PaddingValues(0.dp)) {
                         Text("Login", color = Secondary, fontWeight = FontWeight.SemiBold, fontSize = 14.sp)

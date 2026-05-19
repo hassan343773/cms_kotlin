@@ -36,6 +36,7 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
@@ -52,6 +53,8 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.coroutines.android)
     implementation(libs.datastore.preferences)
+    implementation(libs.coil.compose)
     implementation(libs.androidx.splashscreen)
+    implementation(libs.play.services.cast.framework)
     debugImplementation(libs.androidx.ui.tooling)
 }

@@ -1,8 +1,11 @@
+@file:Suppress("DEPRECATION")
+
 package com.cms.app.ui.screens.complaints
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -27,7 +30,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 @OptIn(ExperimentalMaterial3Api::class, FlowPreview::class)
 @Composable
 fun ComplaintsScreen(
-    isAdmin: Boolean,
+    useGlobalComplaintQueue: Boolean,
     complaintViewModel: ComplaintViewModel,
     onNavigateToDetail: () -> Unit,
     onNavigateToCreate: () -> Unit,
@@ -37,6 +40,7 @@ fun ComplaintsScreen(
     val loadState    by complaintViewModel.loadState.collectAsState()
     val activeFilter by complaintViewModel.activeFilter.collectAsState()
     val pagination   by complaintViewModel.pagination.collectAsState()
+    val extrasMap    by complaintViewModel.extrasByComplaintId.collectAsState()
 
     var searchQuery  by remember { mutableStateOf("") }
     var isSearching  by remember { mutableStateOf(false) }
@@ -55,26 +59,25 @@ fun ComplaintsScreen(
         if (shouldLoadMore) {
             complaintViewModel.fetchComplaints(
                 page = complaintViewModel.currentPage + 1,
-                isAdmin = isAdmin,
+                useGlobalComplaintQueue = useGlobalComplaintQueue,
                 append = true
             )
         }
     }
 
-    // Load on first entry
-    LaunchedEffect(Unit) {
-        complaintViewModel.fetchComplaints(isAdmin = isAdmin)
+    LaunchedEffect(useGlobalComplaintQueue) {
+        complaintViewModel.fetchComplaints(useGlobalComplaintQueue = useGlobalComplaintQueue)
     }
 
-    // Debounced search
-    LaunchedEffect(searchQuery) {
+    LaunchedEffect(useGlobalComplaintQueue) {
+        if (!useGlobalComplaintQueue) return@LaunchedEffect
         snapshotFlow { searchQuery }
             .debounce(400)
             .distinctUntilChanged()
             .collect { query ->
                 if (query.isBlank()) {
                     isSearching = false
-                    complaintViewModel.fetchComplaints(isAdmin = isAdmin)
+                    complaintViewModel.fetchComplaints(useGlobalComplaintQueue = true)
                 } else {
                     isSearching = true
                     complaintViewModel.search(query)
@@ -85,15 +88,10 @@ fun ComplaintsScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(if (isAdmin) "All Complaints" else "My Complaints", fontWeight = FontWeight.SemiBold) },
+                title = { Text(if (useGlobalComplaintQueue) "Complaint queue" else "My complaints", fontWeight = FontWeight.SemiBold) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.Rounded.ArrowBack, null, tint = Color.White)
-                    }
-                },
-                actions = {
-                    IconButton(onClick = onNavigateToCreate) {
-                        Icon(Icons.Rounded.Add, null, tint = Color.White)
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
@@ -120,10 +118,16 @@ fun ComplaintsScreen(
             OutlinedTextField(
                 value = searchQuery,
                 onValueChange = { searchQuery = it },
+                enabled = useGlobalComplaintQueue,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp, vertical = 10.dp),
-                placeholder = { Text("Search complaints...", color = TextHint) },
+                placeholder = {
+                    Text(
+                        if (useGlobalComplaintQueue) "Search complaints…" else "Search available in staff queue",
+                        color = TextHint
+                    )
+                },
                 leadingIcon = { Icon(Icons.Rounded.Search, null, tint = TextHint, modifier = Modifier.size(20.dp)) },
                 trailingIcon = {
                     if (searchQuery.isNotEmpty()) {
@@ -143,12 +147,12 @@ fun ComplaintsScreen(
             )
 
             // Filter chips (admin only, not while searching)
-            if (isAdmin && !isSearching) {
+            if (useGlobalComplaintQueue && !isSearching) {
                 ScrollableStatusFilterChips(
                     selected = activeFilter,
                     onSelected = { filter ->
                         complaintViewModel.setFilter(filter)
-                        complaintViewModel.fetchComplaints(isAdmin = true)
+                        complaintViewModel.fetchComplaints(useGlobalComplaintQueue = true)
                     }
                 )
                 Spacer(Modifier.height(4.dp))
@@ -167,7 +171,7 @@ fun ComplaintsScreen(
                 loadState is LoadState.Loading && complaints.isEmpty() -> FullScreenLoading()
                 loadState is LoadState.Error && complaints.isEmpty() -> ErrorView(
                     message = (loadState as LoadState.Error).message,
-                    onRetry = { complaintViewModel.fetchComplaints(isAdmin = isAdmin) }
+                    onRetry = { complaintViewModel.fetchComplaints(useGlobalComplaintQueue = useGlobalComplaintQueue) }
                 )
                 complaints.isEmpty() -> EmptyView(
                     if (isSearching) "No results for \"$searchQuery\"" else "No complaints found"
@@ -178,9 +182,14 @@ fun ComplaintsScreen(
                         contentPadding = PaddingValues(bottom = 100.dp)
                     ) {
                         items(complaints, key = { it.id ?: it.hashCode() }) { complaint ->
+                            val ex = complaint.id?.let { extrasMap[it] }
                             ComplaintCard(
                                 complaint = complaint,
-                                showUser = isAdmin,
+                                showUser = useGlobalComplaintQueue,
+                                    assignee = ex?.assignee?.takeIf { it.isNotBlank() }
+                                        ?: complaint.assignee?.takeIf { it.isNotBlank() },
+                                    progressPercent = ex?.progressPercent?.takeIf { it > 0 }
+                                        ?: complaint.progressPercent?.takeIf { it > 0 },
                                 onClick = {
                                     complaintViewModel.setSelectedComplaint(complaint)
                                     onNavigateToDetail()
@@ -205,13 +214,10 @@ fun ComplaintsScreen(
 @Composable
 private fun ScrollableStatusFilterChips(selected: String, onSelected: (String) -> Unit) {
     val filters = listOf("ALL", "PENDING", "IN_PROGRESS", "RESOLVED", "CLOSED")
-    ScrollableTabRow(
-        selectedTabIndex = filters.indexOf(selected).coerceAtLeast(0),
-        edgePadding = 16.dp,
-        containerColor = SurfaceBg,
-        contentColor = Primary,
-        indicator = {},
-        divider = {}
+    LazyRow(
+        modifier = Modifier.fillMaxWidth(),
+        contentPadding = PaddingValues(horizontal = 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         filters.forEach { filter ->
             val isSelected = filter == selected
@@ -222,14 +228,14 @@ private fun ScrollableStatusFilterChips(selected: String, onSelected: (String) -
                 "CLOSED"      -> StatusClosed
                 else          -> Primary
             }
-            Tab(selected = isSelected, onClick = { onSelected(filter) }) {
+            item(key = filter) {
                 FilterChip(
                     selected = isSelected,
                     onClick = { onSelected(filter) },
                     label = {
                         Text(filter.replace("_", " "), fontSize = 11.sp, fontWeight = FontWeight.SemiBold)
                     },
-                    modifier = Modifier.padding(horizontal = 2.dp, vertical = 6.dp),
+                    modifier = Modifier.padding(vertical = 6.dp),
                     colors = FilterChipDefaults.filterChipColors(
                         selectedContainerColor = color,
                         selectedLabelColor     = Color.White,

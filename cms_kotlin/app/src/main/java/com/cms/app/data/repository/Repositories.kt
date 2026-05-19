@@ -3,6 +3,7 @@ package com.cms.app.data.repository
 import com.cms.app.data.models.*
 import com.cms.app.data.services.RetrofitClient
 import com.cms.app.utils.SessionManager
+import kotlinx.coroutines.flow.Flow
 
 // ─── Result wrapper ──────────────────────────────────────────────────────────
 
@@ -16,6 +17,8 @@ sealed class ApiResult<out T> {
 class AuthRepository(private val session: SessionManager) {
 
     private val api = RetrofitClient.apiService
+
+    fun sessionUserFlow(): Flow<UserModel?> = session.userFlow
 
     suspend fun login(username: String, password: String): ApiResult<AuthResponse> {
         return try {
@@ -66,6 +69,20 @@ class ComplaintRepository {
     suspend fun getMyComplaints(page: Int = 0, size: Int = 10): ApiResult<PaginatedResponse> =
         safeCallMyComplaints(page, size)
 
+    /** Full list for the signed-in customer (used for background sync / fingerprints). */
+    suspend fun getMyComplaintsAll(): ApiResult<List<ComplaintModel>> {
+        return try {
+            val response = api.getMyComplaintsAll()
+            if (response.isSuccessful) {
+                ApiResult.Success(response.body() ?: emptyList())
+            } else {
+                ApiResult.Error("Failed to load complaints", response.code())
+            }
+        } catch (e: Exception) {
+            ApiResult.Error(e.localizedMessage ?: "Network error")
+        }
+    }
+
     private suspend fun safeCallMyComplaints(page: Int, size: Int): ApiResult<PaginatedResponse> {
         return try {
             val response = api.getMyComplaints(page, size)
@@ -98,25 +115,88 @@ class ComplaintRepository {
     suspend fun getById(id: Long): ApiResult<ComplaintModel> =
         safeCall { api.getComplaintById(id) }
 
-    suspend fun create(title: String, description: String): ApiResult<Unit> {
+    suspend fun getComplaintMessages(id: Long): ApiResult<List<ComplaintMessageDto>> {
         return try {
-            val r = api.createComplaint(ComplaintRequest(title, description))
+            val r = api.getComplaintMessages(id)
+            if (r.isSuccessful) ApiResult.Success(r.body() ?: emptyList())
+            else {
+                val detail = r.errorBody()?.string()?.take(120)
+                ApiResult.Error(
+                    if (detail.isNullOrBlank()) "Failed to load comments (${r.code()})"
+                    else "Failed to load comments: $detail",
+                    r.code()
+                )
+            }
+        } catch (e: Exception) {
+            ApiResult.Error(e.localizedMessage ?: "Network error")
+        }
+    }
+
+    suspend fun postComplaintMessage(id: Long, message: String): ApiResult<Unit> {
+        return try {
+            val r = api.postComplaintMessage(id, PostCommentBody(message.trim()))
+            if (r.isSuccessful) ApiResult.Success(Unit)
+            else {
+                val detail = r.errorBody()?.string()?.take(120)
+                ApiResult.Error(
+                    if (detail.isNullOrBlank()) "Failed to post comment (${r.code()})"
+                    else "Failed to post comment: $detail",
+                    r.code()
+                )
+            }
+        } catch (e: Exception) {
+            ApiResult.Error(e.localizedMessage ?: "Network error")
+        }
+    }
+
+    suspend fun create(
+        title: String,
+        description: String,
+        assignee: String? = null,
+        progressPercent: Int? = null
+    ): ApiResult<Unit> {
+        return try {
+            val r = api.createComplaint(
+                ComplaintRequest(title, description, "PENDING", assignee, progressPercent)
+            )
             if (r.isSuccessful) ApiResult.Success(Unit) else ApiResult.Error("Create failed", r.code())
-        } catch (e: Exception) { ApiResult.Error(e.localizedMessage ?: "Network error") }
+        } catch (e: Exception) {
+            ApiResult.Error(e.localizedMessage ?: "Network error")
+        }
     }
 
-    suspend fun update(id: Long, title: String, description: String, status: String = "PENDING"): ApiResult<Unit> {
+    suspend fun update(
+        id: Long,
+        title: String,
+        description: String,
+        status: String = "PENDING",
+        assignee: String? = null,
+        progressPercent: Int? = null
+    ): ApiResult<Unit> {
         return try {
-            val r = api.updateComplaint(id, ComplaintRequest(title, description, status))
+            val r = api.updateComplaint(
+                id,
+                ComplaintRequest(title, description, status, assignee, progressPercent)
+            )
             if (r.isSuccessful) ApiResult.Success(Unit) else ApiResult.Error("Update failed", r.code())
-        } catch (e: Exception) { ApiResult.Error(e.localizedMessage ?: "Network error") }
+        } catch (e: Exception) {
+            ApiResult.Error(e.localizedMessage ?: "Network error")
+        }
     }
 
-    suspend fun updateStatus(id: Long, status: String): ApiResult<Unit> {
+    suspend fun updateStatus(id: Long, status: String): ApiResult<ComplaintModel> {
         return try {
             val r = api.updateStatus(id, status)
-            if (r.isSuccessful) ApiResult.Success(Unit) else ApiResult.Error("Status update failed", r.code())
-        } catch (e: Exception) { ApiResult.Error(e.localizedMessage ?: "Network error") }
+            if (r.isSuccessful) {
+                val body = r.body()
+                if (body != null) ApiResult.Success(body)
+                else ApiResult.Success(ComplaintModel(id = id, status = status))
+            } else {
+                ApiResult.Error("Status update failed", r.code())
+            }
+        } catch (e: Exception) {
+            ApiResult.Error(e.localizedMessage ?: "Network error")
+        }
     }
 
     suspend fun delete(id: Long): ApiResult<Unit> {

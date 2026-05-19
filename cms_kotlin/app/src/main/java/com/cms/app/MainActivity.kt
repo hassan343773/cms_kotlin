@@ -19,6 +19,7 @@ import com.cms.app.utils.SessionManager
 import com.cms.app.viewmodel.AuthViewModel
 import com.cms.app.viewmodel.AuthViewModelFactory
 import com.cms.app.viewmodel.ComplaintViewModel
+import com.cms.app.viewmodel.ComplaintViewModelFactory
 
 class MainActivity : ComponentActivity() {
 
@@ -47,8 +48,9 @@ class MainActivity : ComponentActivity() {
                     color = SurfaceBg
                 ) {
                     val navController = rememberNavController()
-                    // ComplaintViewModel uses default constructor (no factory needed)
-                    val complaintViewModel: ComplaintViewModel = viewModel()
+                    val complaintViewModel: ComplaintViewModel = viewModel(
+                        factory = ComplaintViewModelFactory(application)
+                    )
 
                     AppNavGraph(
                         navController      = navController,

@@ -18,7 +18,14 @@ class SessionManager(private val context: Context) {
     private val ROLE_KEY     = stringPreferencesKey(Constants.PREF_ROLE)
     private val USER_ID_KEY  = longPreferencesKey(Constants.PREF_USER_ID)
 
-    val tokenFlow: Flow<String?> = context.dataStore.data.map { it[TOKEN_KEY] }
+    val userFlow: Flow<UserModel?> = context.dataStore.data.map { prefs ->
+        val token = prefs[TOKEN_KEY] ?: return@map null
+        UserModel(
+            id = prefs[USER_ID_KEY],
+            username = prefs[USERNAME_KEY] ?: "",
+            role = prefs[ROLE_KEY] ?: "USER"
+        )
+    }
     val usernameFlow: Flow<String?> = context.dataStore.data.map { it[USERNAME_KEY] }
     val roleFlow: Flow<String?> = context.dataStore.data.map { it[ROLE_KEY] }
 

@@ -6,6 +6,11 @@ import retrofit2.http.*
 
 interface ApiService {
 
+    // Role expectations (client):
+    // - ADMIN, MANAGER, CEO, SUPPORT → use global queue endpoints (paginated / filter / search).
+    // - USER, CUSTOMER → use my-complaints.
+    // Backend should issue JWT with matching authorities for each role.
+
     // ── Auth ──────────────────────────────────────────────────────────────────
 
     @POST("api/auth/login")
@@ -22,6 +27,15 @@ interface ApiService {
     @GET("api/complaints/{id}")
     suspend fun getComplaintById(@Path("id") id: Long): Response<ComplaintModel>
 
+    @GET("api/complaints/{id}/messages")
+    suspend fun getComplaintMessages(@Path("id") id: Long): Response<List<ComplaintMessageDto>>
+
+    @POST("api/complaints/{id}/messages")
+    suspend fun postComplaintMessage(
+        @Path("id") id: Long,
+        @Body body: PostCommentBody
+    ): Response<ComplaintMessageDto>
+
     @PUT("api/complaints/{id}")
     suspend fun updateComplaint(
         @Path("id") id: Long,
@@ -35,7 +49,7 @@ interface ApiService {
     suspend fun updateStatus(
         @Path("id") id: Long,
         @Query("status") status: String
-    ): Response<Any>
+    ): Response<ComplaintModel>
 
     @GET("api/complaints/all")
     suspend fun getAllComplaints(): Response<List<ComplaintModel>>

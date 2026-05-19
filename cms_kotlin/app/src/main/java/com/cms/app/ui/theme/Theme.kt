@@ -45,7 +45,7 @@ private val LightColors = lightColorScheme(
     onSurface      = TextPrimary,
     error          = DangerRed,
     onError        = Color.White,
-    surfaceVariant = Color(0xFFF1F5F9),
+    surfaceVariant = PrimaryLight,
     outline        = BorderColor
 )
 

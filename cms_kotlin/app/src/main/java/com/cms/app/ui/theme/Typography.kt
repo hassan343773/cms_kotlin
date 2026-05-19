@@ -6,14 +6,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 val AppTypography = Typography(
-    headlineLarge  = TextStyle(fontWeight = FontWeight.Bold,   fontSize = 28.sp, color = TextPrimary),
-    headlineMedium = TextStyle(fontWeight = FontWeight.Bold,   fontSize = 22.sp, color = TextPrimary),
-    headlineSmall  = TextStyle(fontWeight = FontWeight.SemiBold, fontSize = 18.sp, color = TextPrimary),
-    titleLarge     = TextStyle(fontWeight = FontWeight.SemiBold, fontSize = 20.sp, color = TextPrimary),
-    titleMedium    = TextStyle(fontWeight = FontWeight.Medium,  fontSize = 16.sp, color = TextPrimary),
-    titleSmall     = TextStyle(fontWeight = FontWeight.Medium,  fontSize = 14.sp, color = TextPrimary),
-    bodyLarge      = TextStyle(fontWeight = FontWeight.Normal,  fontSize = 16.sp, color = TextPrimary),
-    bodyMedium     = TextStyle(fontWeight = FontWeight.Normal,  fontSize = 14.sp, color = TextSecondary),
-    bodySmall      = TextStyle(fontWeight = FontWeight.Normal,  fontSize = 12.sp, color = TextHint),
+    headlineLarge  = TextStyle(fontWeight = FontWeight.Bold,      fontSize = 28.sp),
+    headlineMedium = TextStyle(fontWeight = FontWeight.Bold,      fontSize = 22.sp),
+    headlineSmall  = TextStyle(fontWeight = FontWeight.SemiBold,  fontSize = 18.sp),
+    titleLarge     = TextStyle(fontWeight = FontWeight.SemiBold,  fontSize = 20.sp),
+    titleMedium    = TextStyle(fontWeight = FontWeight.Medium,    fontSize = 16.sp),
+    titleSmall     = TextStyle(fontWeight = FontWeight.Medium,    fontSize = 14.sp),
+    bodyLarge      = TextStyle(fontWeight = FontWeight.Normal,    fontSize = 16.sp),
+    bodyMedium     = TextStyle(fontWeight = FontWeight.Normal,    fontSize = 14.sp),
+    bodySmall      = TextStyle(fontWeight = FontWeight.Normal,    fontSize = 12.sp),
     labelSmall     = TextStyle(fontWeight = FontWeight.Medium,  fontSize = 11.sp)
 )
