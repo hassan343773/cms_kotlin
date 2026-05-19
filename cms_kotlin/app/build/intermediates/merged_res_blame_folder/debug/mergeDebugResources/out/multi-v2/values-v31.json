@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cms.app-mergeDebugResources-54:/values-v31/values-v31.xml",
+            "outputFile": "com.cms.app-mergeDebugResources-68:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hijaz\\.gradle\\caches\\9.0-milestone-1\\transforms\\69c19103cab71fa53326daedcfdf1857\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "source": "C:\\Users\\hijaz\\.gradle\\caches\\9.0-milestone-1\\transforms\\8b14e1f9856c6349ac24552dc50298f9\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2,9",
                         "startColumns": "4,4",

@@ -8,6 +8,7 @@ import com.cms.app.data.repository.AuthRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.launch
 
 sealed class AuthState {
@@ -27,6 +28,46 @@ class AuthViewModel(private val repository: AuthRepository) : ViewModel() {
     val currentUser: StateFlow<UserModel?> = _currentUser.asStateFlow()
 
     val isAdmin: Boolean get() = _currentUser.value?.isAdmin == true
+
+    val canViewGlobalComplaintQueue: Boolean
+        get() = _currentUser.value?.canViewGlobalComplaintQueue == true
+
+    val canModerateComplaintStatus: Boolean
+        get() = _currentUser.value?.canModerateComplaintStatus == true
+
+    val canDeleteComplaints: Boolean
+        get() = _currentUser.value?.canDeleteComplaints == true
+
+    val canManageAssignmentAndProgress: Boolean
+        get() = _currentUser.value?.canManageAssignmentAndProgress == true
+
+    val canBrowseProfileDirectory: Boolean
+        get() = _currentUser.value?.canBrowseProfileDirectory == true
+
+    init {
+        viewModelScope.launch {
+            repository.sessionUserFlow()
+                .distinctUntilChanged()
+                .collect { user ->
+                    _currentUser.value = user
+                    when {
+                        user == null -> _state.value = AuthState.Unauthenticated
+                        _state.value is AuthState.Loading -> Unit
+                        _state.value is AuthState.Error -> Unit
+                        else -> _state.value = AuthState.Authenticated
+                    }
+                }
+        }
+    }
+
+    /** Re-read session from storage (e.g. after returning to the app). */
+    fun syncUserFromStorage() {
+        viewModelScope.launch {
+            val user = repository.getStoredUser()
+            _currentUser.value = user
+            if (user == null) _state.value = AuthState.Unauthenticated
+        }
+    }
 
     fun checkAuth() {
         viewModelScope.launch {

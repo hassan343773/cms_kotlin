@@ -1,10 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\hijaz\\.gradle\\daemon\\9.0-milestone-1\\com.cms.app-debug-56:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\hijaz\\.gradle\\daemon\\9.0-milestone-1\\com.cms.app-main-58:\\xml\\network_security_config.xml"
+        "merged": "com.cms.app-debug-70:/drawable_hands_dotted.png.flat",
+        "source": "com.cms.app-main-72:/drawable/hands_dotted.png"
     },
     {
-        "merged": "com.cms.app-debug-56:/xml_network_security_config.xml.flat",
-        "source": "com.cms.app-main-58:/xml/network_security_config.xml"
+        "merged": "com.cms.app-debug-70:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cms.app-main-72:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/drawable_hand_dotted.png.flat",
+        "source": "com.cms.app-main-72:/drawable/hand_dotted.png"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/xml_network_security_config.xml.flat",
+        "source": "com.cms.app-main-72:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.cms.app-main-72:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.cms.app-main-72:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/drawable_splash_fullscreen.png.flat",
+        "source": "com.cms.app-main-72:/drawable/splash_fullscreen.png"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/drawable_logo_7eiz.png.flat",
+        "source": "com.cms.app-main-72:/drawable/logo_7eiz.png"
+    },
+    {
+        "merged": "com.cms.app-debug-70:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cms.app-main-72:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

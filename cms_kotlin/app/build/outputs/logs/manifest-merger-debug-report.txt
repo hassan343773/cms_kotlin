@@ -1,65 +1,103 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-26:12
-MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ea20ef9e597cb4ed9c0acd30a9013544\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\24b02cdf81f95987de7125d5decf5ab1\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f7b5f5ce037cf1bccee05ec7c5ea05c0\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8e8e0511e8e99c6f4eb562f3f50b8e02\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a71e7fc5ceef8f9a7a474958995c0285\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1e7a82e9fcbceff84f127b36727cadcd\transformed\material3-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c7b6452c3fa5a5e8ea181f7ad484a6ab\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8ce3d17f3f89a566337149e343496d54\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3e5045b2a6fbca146147d271cbc7bc80\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.animation:animation-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\401e50ee8e72387607f019a4d46a4df1\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6e32780a9fe6be03bd1ef72c2ba5d191\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\61e0f5b08022ac713308931a70471b2a\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\28d17f273f6c2d5cbfcbe9810fff3ef6\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4bde6d95486f197261906dc86dc1bfc4\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a98a18ae4889ab24233a7bbd5d7a70dd\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\dd283eba3e8d90285e70791544f756d3\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6ef40cecd5efb8f48df6e70c27b16533\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\91dec6fc44e018a2e4c7dc214fb93d1a\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9d863fd9777ff6e5082a5d48e51ff822\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4ca33ac7d3cfb8366c312ec063daed4e\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\fcf498e3f1a8d6d2d2d2464845980c32\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e9846f1b6ae286b390731ee94444b4b5\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4f6e150abe621e1f1681e3d189419b66\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8099e63b427f85bfb110ed80d38d41aa\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\94630106184b2fa4853c81bef30bb01e\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2f336a551059a7fde1bd1b50d796244f\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\020b69e097cdbd82d7d5fdb08c5a7ab5\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4e0e689b0e815cd8c3027dd330d20e78\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f42c5bd1d390e0c5b0e950515dd22e12\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3b92fec9ab8cebb7a0685f3bfe0c51cb\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1a91f46678c091178901d60d649db87b\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\50d76807691e26722698a62d82231d56\transformed\ui-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bc1fcf64a3cc5704304abf34484ac589\transformed\activity-compose-1.9.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee547d68f1fb2638cca29644af0a8e4f\transformed\activity-ktx-1.9.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee8d7d7af8b13de03ab326a8546ee76d\transformed\activity-1.9.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6204e52c7d14ccd1026c277074473517\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f8d5f3d19cae8022f87e85d1dcacddab\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\39e5aa507316605ff6d785f491068376\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\82725d3bedcbb625d4e03548edb78e5e\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ec34642c33bcdc17791a9967102eeb4a\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9d8d08cfc20f43742b2886dfd7449d10\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\eab3aa428aa7a3ab62b97511bb2c650e\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6699a3a40663748c0f2ff285d89eade9\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bd78cf989d9c81119f57c24f7082342f\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\69c19103cab71fa53326daedcfdf1857\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b011d76635afbb6e4670a55fc3f4419\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4f607cefc271ab291c7d81918bd96a03\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\34fafa66205fb97dc35e91fa626b0208\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\399b85bb8ba542df50c3629e4cfcd568\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3b69c6b2b035c5a0c5701fc046aef059\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.gms:play-services-cast:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ff86a948fa6bc3037123c252b8a74327\transformed\play-services-cast-22.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.mediarouter:mediarouter:1.8.0-beta01] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3aacb8b7962c468e397fd925842e7da7\transformed\mediarouter-1.8.0-beta01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.6.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2db38741ca89b0e8a1910565fe37d5e1\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:18.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\439f0a4d1317c18e136d3baee29779ff\transformed\play-services-flags-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\85325121824d0c3dc217330d4e4ff034\transformed\play-services-tasks-18.3.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d4722ca2e18677f2d8817e48db2fe7b1\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9ddb54815d41ed421dd1f1f5767bc387\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\564fa1129c558657c72767b9ed905cb4\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1beccb2a5cf3d944758c7cd14d955908\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f45616a115d27c0ab8be8a3097738438\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9f01030c9682a9e9c5e99da19c26678d\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\776e4d5554948a4a9e6c13e649b62d9f\transformed\coil-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f190d7711a4ac846a0f79f4ba04799bc\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\983c346af037ebc2dcbab9fd4bd24f19\transformed\coil-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f45280386157545dd05492fe69a6961d\transformed\coil-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2875a4033d7e58fecd5efefd032f97b7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b2c0039807ce3f516484070a93892fc4\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\7ac9af017cafac5383c2dd5ed991e3b6\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4189341fc1974bb01421ca744d7bd0de\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c99d027f6bf6ab3db44d799ed664c737\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ca47088ce7fedb189232e7e6ff15112d\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\0db8df28b9e67d33de2a400a7e943268\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aa86024f3865ace90e20210920ac4391\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b9f97eaa5c03bbf0134875aa27d6f20e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ba6f874532e070b8882894167cc1ed1f\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bcec5dcf6ba762e6c696ee8fa8e92cc5\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\50f2487fa5ee30cd89910bc05bcce22e\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5b45e40e7c8f4a1c01acd59157786a8c\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\00d80cd3f0471b8e1dbeb408a31c8e41\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d652cb6dae784d4f39cd64308460c427\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ab192a4c8d8e1ac779ed01e69d195d6e\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\70c9d54ffe1f140823b11a2808809f98\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\163ff69ebb2d16f921834af7a014a298\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8601ac5fdb64c380418f54bf8ad0539b\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1a564133fe02e9cc60777d746d348203\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\221d756994f89554077e7b78294a0eea\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\153213ca55bc36042f409133041ba428\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6d89182cecc0cad99c48aa30350bde8c\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d33b6f594587cc7214d038458a27498\transformed\lifecycle-livedata-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8f987a91a8cca7c69a39c00500eaefd3\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6fbe8e1237719204ccf843ac3e7c84de\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e576c50897173103cfdfcc7255f4810b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c82f04157a259945b4214e4754ad4753\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\03539e30efca7fa0d38d835337039aa6\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24b3ab0773b88c80e63912cda28780c\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5e4ac95f5a8af6d0194d3c5258ce04d7\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2007d593a28934dc306b89a2c345094c\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2e11ccab16572c13d3a0bbae00e109e1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1f6ac620e8e82e43b86c3e9e78e95518\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f065f7443ce56113e98db2be89fcae09\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\babfd9335f3a2ee500b5b52fcee35c49\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\20fe392c5d347df0f33715554ddb1af4\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b6b6049ebd03d170157633938e9b4478\transformed\activity-compose-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5da4429972c4bfb9f2f282ec6bf05087\transformed\activity-ktx-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\913c6149de33ccaf308974b11db67176\transformed\activity-1.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\18d76377a882c87b6b1c6afe22d48dca\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ce20f308fa9fff5796d54572a7333631\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1abaef2ae332d2d66f3990ff6ee2e0dc\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\7fce701759173f331ef18e7761ae7b1c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\45fd57da99c5a8e9abf3b2301975bcb2\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\955ba915b22d85a8cc3389aa960679bc\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\781182f913f897a2a64ec33feb6ab03f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\45ae9650390435687d9bcc3dc04ab424\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\92dc9df50021bbe45fc1c58194f3aa83\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\25a7f9d8779d9a2ac096abcf704a4656\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee5ad2b2028da17d29f6022c1126c634\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1ac8d3fa7d02fd8c064189f26ffe856b\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a19d3d73c15d0e1d5f74d4be280baa4e\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\46b629bb1da34775c8287416d4c962f7\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\21865f7c58290c77dd8bb12d43614d92\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b14e1f9856c6349ac24552dc50298f9\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d07c7f398411800656ced142f50c590d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\429dcaccae7d95938b48264cd1dfbea1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a85b5b664569ea9a72b5fb746d730aec\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a393e928a8c81061e45034851687d18a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1c2ab4772caf0436998cbc96af1c9943\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4c0597ecbf8cc3bcd3ce70c621ba3426\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\93ce4dfb131e24c8fedee07da21b5720\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\fcacea333083c2205585da5b28494a6f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\280150e6b68009c2921cefa3ffae79be\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\0df5c09a44d574e9eb09a850c7792093\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6efb92e3f4c25fa5930645a3aced63ba\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8fa5ea9e05cc6d2a740de31a58e596f6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -70,268 +108,440 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\cache
 		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:6:5-24:19
-INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b011d76635afbb6e4670a55fc3f4419\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b011d76635afbb6e4670a55fc3f4419\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:6:5-26:19
+INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:6:5-26:19
+MERGED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:18:5-26:19
+MERGED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:18:5-26:19
+MERGED from [com.google.android.gms:play-services-cast:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ff86a948fa6bc3037123c252b8a74327\transformed\play-services-cast-22.3.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ff86a948fa6bc3037123c252b8a74327\transformed\play-services-cast-22.3.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\85325121824d0c3dc217330d4e4ff034\transformed\play-services-tasks-18.3.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\85325121824d0c3dc217330d4e4ff034\transformed\play-services-tasks-18.3.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\429dcaccae7d95938b48264cd1dfbea1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\429dcaccae7d95938b48264cd1dfbea1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:8:9-42
+	android:roundIcon
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:13:9-44
+	android:networkSecurityConfig
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:11:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:12:9-44
 activity#com.cms.app.MainActivity
-ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:14:9-22:20
+ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:17:13-55
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:19:13-55
 	android:exported
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:18:13-21:29
+ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ea20ef9e597cb4ed9c0acd30a9013544\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ea20ef9e597cb4ed9c0acd30a9013544\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\24b02cdf81f95987de7125d5decf5ab1\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\24b02cdf81f95987de7125d5decf5ab1\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f7b5f5ce037cf1bccee05ec7c5ea05c0\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f7b5f5ce037cf1bccee05ec7c5ea05c0\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8e8e0511e8e99c6f4eb562f3f50b8e02\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8e8e0511e8e99c6f4eb562f3f50b8e02\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a71e7fc5ceef8f9a7a474958995c0285\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a71e7fc5ceef8f9a7a474958995c0285\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1e7a82e9fcbceff84f127b36727cadcd\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1e7a82e9fcbceff84f127b36727cadcd\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c7b6452c3fa5a5e8ea181f7ad484a6ab\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c7b6452c3fa5a5e8ea181f7ad484a6ab\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8ce3d17f3f89a566337149e343496d54\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8ce3d17f3f89a566337149e343496d54\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3e5045b2a6fbca146147d271cbc7bc80\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3e5045b2a6fbca146147d271cbc7bc80\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\401e50ee8e72387607f019a4d46a4df1\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\401e50ee8e72387607f019a4d46a4df1\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6e32780a9fe6be03bd1ef72c2ba5d191\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6e32780a9fe6be03bd1ef72c2ba5d191\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\61e0f5b08022ac713308931a70471b2a\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\61e0f5b08022ac713308931a70471b2a\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\28d17f273f6c2d5cbfcbe9810fff3ef6\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\28d17f273f6c2d5cbfcbe9810fff3ef6\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4bde6d95486f197261906dc86dc1bfc4\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4bde6d95486f197261906dc86dc1bfc4\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a98a18ae4889ab24233a7bbd5d7a70dd\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a98a18ae4889ab24233a7bbd5d7a70dd\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\dd283eba3e8d90285e70791544f756d3\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\dd283eba3e8d90285e70791544f756d3\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6ef40cecd5efb8f48df6e70c27b16533\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6ef40cecd5efb8f48df6e70c27b16533\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\91dec6fc44e018a2e4c7dc214fb93d1a\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\91dec6fc44e018a2e4c7dc214fb93d1a\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9d863fd9777ff6e5082a5d48e51ff822\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9d863fd9777ff6e5082a5d48e51ff822\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4ca33ac7d3cfb8366c312ec063daed4e\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4ca33ac7d3cfb8366c312ec063daed4e\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\fcf498e3f1a8d6d2d2d2464845980c32\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\fcf498e3f1a8d6d2d2d2464845980c32\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e9846f1b6ae286b390731ee94444b4b5\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e9846f1b6ae286b390731ee94444b4b5\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4f6e150abe621e1f1681e3d189419b66\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4f6e150abe621e1f1681e3d189419b66\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8099e63b427f85bfb110ed80d38d41aa\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8099e63b427f85bfb110ed80d38d41aa\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\94630106184b2fa4853c81bef30bb01e\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\94630106184b2fa4853c81bef30bb01e\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2f336a551059a7fde1bd1b50d796244f\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2f336a551059a7fde1bd1b50d796244f\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\020b69e097cdbd82d7d5fdb08c5a7ab5\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\020b69e097cdbd82d7d5fdb08c5a7ab5\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4e0e689b0e815cd8c3027dd330d20e78\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4e0e689b0e815cd8c3027dd330d20e78\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f42c5bd1d390e0c5b0e950515dd22e12\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f42c5bd1d390e0c5b0e950515dd22e12\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3b92fec9ab8cebb7a0685f3bfe0c51cb\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3b92fec9ab8cebb7a0685f3bfe0c51cb\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1a91f46678c091178901d60d649db87b\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1a91f46678c091178901d60d649db87b\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\50d76807691e26722698a62d82231d56\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\50d76807691e26722698a62d82231d56\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bc1fcf64a3cc5704304abf34484ac589\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bc1fcf64a3cc5704304abf34484ac589\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee547d68f1fb2638cca29644af0a8e4f\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee547d68f1fb2638cca29644af0a8e4f\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee8d7d7af8b13de03ab326a8546ee76d\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee8d7d7af8b13de03ab326a8546ee76d\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6204e52c7d14ccd1026c277074473517\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6204e52c7d14ccd1026c277074473517\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f8d5f3d19cae8022f87e85d1dcacddab\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f8d5f3d19cae8022f87e85d1dcacddab\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\39e5aa507316605ff6d785f491068376\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\39e5aa507316605ff6d785f491068376\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\82725d3bedcbb625d4e03548edb78e5e\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\82725d3bedcbb625d4e03548edb78e5e\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ec34642c33bcdc17791a9967102eeb4a\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ec34642c33bcdc17791a9967102eeb4a\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9d8d08cfc20f43742b2886dfd7449d10\transformed\datastore-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9d8d08cfc20f43742b2886dfd7449d10\transformed\datastore-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\eab3aa428aa7a3ab62b97511bb2c650e\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\eab3aa428aa7a3ab62b97511bb2c650e\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6699a3a40663748c0f2ff285d89eade9\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6699a3a40663748c0f2ff285d89eade9\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bd78cf989d9c81119f57c24f7082342f\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bd78cf989d9c81119f57c24f7082342f\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\69c19103cab71fa53326daedcfdf1857\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\69c19103cab71fa53326daedcfdf1857\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b011d76635afbb6e4670a55fc3f4419\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b011d76635afbb6e4670a55fc3f4419\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4f607cefc271ab291c7d81918bd96a03\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4f607cefc271ab291c7d81918bd96a03\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\34fafa66205fb97dc35e91fa626b0208\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\34fafa66205fb97dc35e91fa626b0208\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\399b85bb8ba542df50c3629e4cfcd568\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\399b85bb8ba542df50c3629e4cfcd568\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3b69c6b2b035c5a0c5701fc046aef059\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3b69c6b2b035c5a0c5701fc046aef059\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-cast:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ff86a948fa6bc3037123c252b8a74327\transformed\play-services-cast-22.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ff86a948fa6bc3037123c252b8a74327\transformed\play-services-cast-22.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.8.0-beta01] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3aacb8b7962c468e397fd925842e7da7\transformed\mediarouter-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.8.0-beta01] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3aacb8b7962c468e397fd925842e7da7\transformed\mediarouter-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.6.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2db38741ca89b0e8a1910565fe37d5e1\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2db38741ca89b0e8a1910565fe37d5e1\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-flags:18.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\439f0a4d1317c18e136d3baee29779ff\transformed\play-services-flags-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-flags:18.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\439f0a4d1317c18e136d3baee29779ff\transformed\play-services-flags-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\85325121824d0c3dc217330d4e4ff034\transformed\play-services-tasks-18.3.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\85325121824d0c3dc217330d4e4ff034\transformed\play-services-tasks-18.3.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d4722ca2e18677f2d8817e48db2fe7b1\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d4722ca2e18677f2d8817e48db2fe7b1\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9ddb54815d41ed421dd1f1f5767bc387\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9ddb54815d41ed421dd1f1f5767bc387\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\564fa1129c558657c72767b9ed905cb4\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\564fa1129c558657c72767b9ed905cb4\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1beccb2a5cf3d944758c7cd14d955908\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1beccb2a5cf3d944758c7cd14d955908\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f45616a115d27c0ab8be8a3097738438\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f45616a115d27c0ab8be8a3097738438\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9f01030c9682a9e9c5e99da19c26678d\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\9f01030c9682a9e9c5e99da19c26678d\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\776e4d5554948a4a9e6c13e649b62d9f\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\776e4d5554948a4a9e6c13e649b62d9f\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f190d7711a4ac846a0f79f4ba04799bc\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f190d7711a4ac846a0f79f4ba04799bc\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\983c346af037ebc2dcbab9fd4bd24f19\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\983c346af037ebc2dcbab9fd4bd24f19\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f45280386157545dd05492fe69a6961d\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f45280386157545dd05492fe69a6961d\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2875a4033d7e58fecd5efefd032f97b7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2875a4033d7e58fecd5efefd032f97b7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b2c0039807ce3f516484070a93892fc4\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b2c0039807ce3f516484070a93892fc4\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\7ac9af017cafac5383c2dd5ed991e3b6\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\7ac9af017cafac5383c2dd5ed991e3b6\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4189341fc1974bb01421ca744d7bd0de\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4189341fc1974bb01421ca744d7bd0de\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c99d027f6bf6ab3db44d799ed664c737\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c99d027f6bf6ab3db44d799ed664c737\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ca47088ce7fedb189232e7e6ff15112d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ca47088ce7fedb189232e7e6ff15112d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\0db8df28b9e67d33de2a400a7e943268\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\0db8df28b9e67d33de2a400a7e943268\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aa86024f3865ace90e20210920ac4391\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aa86024f3865ace90e20210920ac4391\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b9f97eaa5c03bbf0134875aa27d6f20e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b9f97eaa5c03bbf0134875aa27d6f20e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ba6f874532e070b8882894167cc1ed1f\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ba6f874532e070b8882894167cc1ed1f\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bcec5dcf6ba762e6c696ee8fa8e92cc5\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\bcec5dcf6ba762e6c696ee8fa8e92cc5\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\50f2487fa5ee30cd89910bc05bcce22e\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\50f2487fa5ee30cd89910bc05bcce22e\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5b45e40e7c8f4a1c01acd59157786a8c\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5b45e40e7c8f4a1c01acd59157786a8c\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\00d80cd3f0471b8e1dbeb408a31c8e41\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\00d80cd3f0471b8e1dbeb408a31c8e41\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d652cb6dae784d4f39cd64308460c427\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d652cb6dae784d4f39cd64308460c427\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ab192a4c8d8e1ac779ed01e69d195d6e\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ab192a4c8d8e1ac779ed01e69d195d6e\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\70c9d54ffe1f140823b11a2808809f98\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\70c9d54ffe1f140823b11a2808809f98\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\163ff69ebb2d16f921834af7a014a298\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\163ff69ebb2d16f921834af7a014a298\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8601ac5fdb64c380418f54bf8ad0539b\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8601ac5fdb64c380418f54bf8ad0539b\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1a564133fe02e9cc60777d746d348203\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1a564133fe02e9cc60777d746d348203\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\221d756994f89554077e7b78294a0eea\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\221d756994f89554077e7b78294a0eea\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\153213ca55bc36042f409133041ba428\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\153213ca55bc36042f409133041ba428\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6d89182cecc0cad99c48aa30350bde8c\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6d89182cecc0cad99c48aa30350bde8c\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d33b6f594587cc7214d038458a27498\transformed\lifecycle-livedata-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d33b6f594587cc7214d038458a27498\transformed\lifecycle-livedata-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8f987a91a8cca7c69a39c00500eaefd3\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8f987a91a8cca7c69a39c00500eaefd3\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6fbe8e1237719204ccf843ac3e7c84de\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6fbe8e1237719204ccf843ac3e7c84de\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e576c50897173103cfdfcc7255f4810b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e576c50897173103cfdfcc7255f4810b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c82f04157a259945b4214e4754ad4753\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\c82f04157a259945b4214e4754ad4753\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\03539e30efca7fa0d38d835337039aa6\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\03539e30efca7fa0d38d835337039aa6\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24b3ab0773b88c80e63912cda28780c\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24b3ab0773b88c80e63912cda28780c\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5e4ac95f5a8af6d0194d3c5258ce04d7\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5e4ac95f5a8af6d0194d3c5258ce04d7\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2007d593a28934dc306b89a2c345094c\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2007d593a28934dc306b89a2c345094c\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2e11ccab16572c13d3a0bbae00e109e1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\2e11ccab16572c13d3a0bbae00e109e1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1f6ac620e8e82e43b86c3e9e78e95518\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1f6ac620e8e82e43b86c3e9e78e95518\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f065f7443ce56113e98db2be89fcae09\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f065f7443ce56113e98db2be89fcae09\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\babfd9335f3a2ee500b5b52fcee35c49\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\babfd9335f3a2ee500b5b52fcee35c49\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\20fe392c5d347df0f33715554ddb1af4\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\20fe392c5d347df0f33715554ddb1af4\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b6b6049ebd03d170157633938e9b4478\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b6b6049ebd03d170157633938e9b4478\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5da4429972c4bfb9f2f282ec6bf05087\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5da4429972c4bfb9f2f282ec6bf05087\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\913c6149de33ccaf308974b11db67176\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\913c6149de33ccaf308974b11db67176\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\18d76377a882c87b6b1c6afe22d48dca\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\18d76377a882c87b6b1c6afe22d48dca\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ce20f308fa9fff5796d54572a7333631\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ce20f308fa9fff5796d54572a7333631\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1abaef2ae332d2d66f3990ff6ee2e0dc\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1abaef2ae332d2d66f3990ff6ee2e0dc\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\7fce701759173f331ef18e7761ae7b1c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\7fce701759173f331ef18e7761ae7b1c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\45fd57da99c5a8e9abf3b2301975bcb2\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\45fd57da99c5a8e9abf3b2301975bcb2\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\955ba915b22d85a8cc3389aa960679bc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\955ba915b22d85a8cc3389aa960679bc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\781182f913f897a2a64ec33feb6ab03f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\781182f913f897a2a64ec33feb6ab03f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\45ae9650390435687d9bcc3dc04ab424\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\45ae9650390435687d9bcc3dc04ab424\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\92dc9df50021bbe45fc1c58194f3aa83\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\92dc9df50021bbe45fc1c58194f3aa83\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\25a7f9d8779d9a2ac096abcf704a4656\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\25a7f9d8779d9a2ac096abcf704a4656\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee5ad2b2028da17d29f6022c1126c634\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\ee5ad2b2028da17d29f6022c1126c634\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1ac8d3fa7d02fd8c064189f26ffe856b\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1ac8d3fa7d02fd8c064189f26ffe856b\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a19d3d73c15d0e1d5f74d4be280baa4e\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a19d3d73c15d0e1d5f74d4be280baa4e\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\46b629bb1da34775c8287416d4c962f7\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\46b629bb1da34775c8287416d4c962f7\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\21865f7c58290c77dd8bb12d43614d92\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\21865f7c58290c77dd8bb12d43614d92\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b14e1f9856c6349ac24552dc50298f9\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8b14e1f9856c6349ac24552dc50298f9\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d07c7f398411800656ced142f50c590d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d07c7f398411800656ced142f50c590d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\429dcaccae7d95938b48264cd1dfbea1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\429dcaccae7d95938b48264cd1dfbea1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a85b5b664569ea9a72b5fb746d730aec\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a85b5b664569ea9a72b5fb746d730aec\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a393e928a8c81061e45034851687d18a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\a393e928a8c81061e45034851687d18a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1c2ab4772caf0436998cbc96af1c9943\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\1c2ab4772caf0436998cbc96af1c9943\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4c0597ecbf8cc3bcd3ce70c621ba3426\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4c0597ecbf8cc3bcd3ce70c621ba3426\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\93ce4dfb131e24c8fedee07da21b5720\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\93ce4dfb131e24c8fedee07da21b5720\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\fcacea333083c2205585da5b28494a6f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\fcacea333083c2205585da5b28494a6f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\280150e6b68009c2921cefa3ffae79be\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\280150e6b68009c2921cefa3ffae79be\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\0df5c09a44d574e9eb09a850c7792093\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\0df5c09a44d574e9eb09a850c7792093\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6efb92e3f4c25fa5930645a3aced63ba\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\6efb92e3f4c25fa5930645a3aced63ba\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8fa5ea9e05cc6d2a740de31a58e596f6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8fa5ea9e05cc6d2a740de31a58e596f6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\hijaz\Downloads\cms_kotlin_fixed\cms_kotlin\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:12:22-74
+queries
+ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:14:5-16:15
+package#com.google.android.gms.policy_cast_dynamite
+ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:15:9-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:15:18-76
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:20:13-91
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\b54e94679ad75b25f368cc87e5e5e084\transformed\play-services-cast-framework-22.3.1\AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\4d9f16bccd178aa46a2c0cfea4cee23f\transformed\play-services-base-18.7.2\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f24e60f3e3ab2c24349dd2edf6b329b0\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d74d18d69de3220bd505ed11e48c76a8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\5278ece2cbeea0e9e0cde68026d821b8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\d35380435e169d4011cdffe8c99119ea\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\71f211240bd5abcf5137be3e2ed0b511\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\3c28d3b7f67051b4c5ae8eddbb17f7a2\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\aabb3015e49c6e31b79fc3fffec4659a\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\60da58d99144e864b6bb6c946bed12b2\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\f5459c48b8546e16700e0a98db3f3077\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 permission#com.cms.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 uses-permission#com.cms.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\e4516ab235b9c8f9e658846173035c4f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\58b78fc8cd5ecc06e143c8e45e8d8446\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\59b25ae26032b564fdfdb67d73e0f5e5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\99e2438284e344c4baf0cf75a1d4189f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\8d2cfe7d6a8ed3b581aa42dbd356b4cf\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\hijaz\.gradle\caches\9.0-milestone-1\transforms\520f127d19007505a8d4aabb351da309\transformed\transport-runtime-3.1.3\AndroidManifest.xml:33:13-132

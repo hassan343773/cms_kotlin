@@ -47,6 +47,8 @@ fun StatusBadge(status: String, modifier: Modifier = Modifier) {
 fun ComplaintCard(
     complaint: ComplaintModel,
     showUser: Boolean = false,
+    assignee: String? = null,
+    progressPercent: Int? = null,
     onClick: () -> Unit
 ) {
     Card(
@@ -81,6 +83,24 @@ fun ComplaintCard(
                 lineHeight = 18.sp
             )
             Spacer(Modifier.height(8.dp))
+            val assigneeText = assignee?.takeIf { it.isNotBlank() }
+            if (assigneeText != null || (progressPercent != null && progressPercent > 0)) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    assigneeText?.let {
+                        Icon(Icons.Rounded.AssignmentInd, null, modifier = Modifier.size(14.dp), tint = Primary)
+                        Text("Assignee: $it", fontSize = 11.sp, color = Primary, fontWeight = FontWeight.Medium)
+                    }
+                    if (progressPercent != null && progressPercent > 0) {
+                        Spacer(Modifier.weight(1f))
+                        Text("${progressPercent}%", fontSize = 11.sp, color = StatusProgress, fontWeight = FontWeight.SemiBold)
+                    }
+                }
+                Spacer(Modifier.height(6.dp))
+            }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (showUser && complaint.user != null) {
                     Icon(Icons.Rounded.Person, contentDescription = null,

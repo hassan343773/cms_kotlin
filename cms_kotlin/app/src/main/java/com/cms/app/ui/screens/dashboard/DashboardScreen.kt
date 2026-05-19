@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.cms.app.ui.screens.dashboard
 
 import androidx.compose.foundation.background
@@ -10,6 +12,8 @@ import androidx.compose.material.icons.rounded.*
 import androidx.compose.material3.*
 import androidx.compose.material3.pulltorefresh.PullToRefreshBox
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
+import androidx.compose.material3.BadgedBox
+import androidx.compose.material3.Badge
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,29 +29,45 @@ import com.cms.app.ui.theme.*
 import com.cms.app.viewmodel.AuthViewModel
 import com.cms.app.viewmodel.ComplaintViewModel
 import com.cms.app.viewmodel.LoadState
+import kotlinx.coroutines.flow.collectLatest
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DashboardScreen(
     authViewModel: AuthViewModel,
     complaintViewModel: ComplaintViewModel,
+    canBrowseProfileDirectory: Boolean,
     onNavigateToComplaints: () -> Unit,
+    onNavigateToTeamTasks: () -> Unit,
     onNavigateToDetail: () -> Unit,
     onNavigateToCreate: () -> Unit,
+    onNavigateToMyProfile: () -> Unit,
+    onNavigateToProfileDirectory: () -> Unit,
+    onNavigateToNotifications: () -> Unit,
     onLogout: () -> Unit
 ) {
     val currentUser   by authViewModel.currentUser.collectAsState()
     val complaints    by complaintViewModel.complaints.collectAsState()
     val loadState     by complaintViewModel.loadState.collectAsState()
+    val extrasMap     by complaintViewModel.extrasByComplaintId.collectAsState()
+    val inAppNotifs   by complaintViewModel.inAppNotifications.collectAsState()
     val totalElements = complaintViewModel.totalElements
-    val isAdmin       = authViewModel.isAdmin
+    val useGlobalQueue = authViewModel.canViewGlobalComplaintQueue
 
     var showLogoutDialog by remember { mutableStateOf(false) }
     var isRefreshing     by remember { mutableStateOf(false) }
     val pullState        = rememberPullToRefreshState()
+    val snackbarHostState = remember { SnackbarHostState() }
+    val unreadNotifs     = inAppNotifs.count { !it.read }
 
-    LaunchedEffect(isAdmin) {
-        complaintViewModel.fetchComplaints(isAdmin = isAdmin)
+    LaunchedEffect(Unit) {
+        complaintViewModel.inAppToastMessages.collectLatest { msg ->
+            snackbarHostState.showSnackbar(msg)
+        }
+    }
+
+    LaunchedEffect(useGlobalQueue) {
+        complaintViewModel.fetchComplaints(useGlobalComplaintQueue = useGlobalQueue)
     }
 
     LaunchedEffect(loadState) {
@@ -70,11 +90,35 @@ fun DashboardScreen(
     }
 
     Scaffold(
+        snackbarHost = {
+            SnackbarHost(snackbarHostState) { data ->
+                Snackbar(snackbarData = data, shape = RoundedCornerShape(10.dp))
+            }
+        },
         topBar = {
             TopAppBar(
-                title = { Text("Dashboard", fontWeight = FontWeight.SemiBold)  },
+                title = { Text("Dashboard", fontWeight = FontWeight.SemiBold, color = Color.White)  },
                 actions = {
-                    if (isAdmin) {
+                    BadgedBox(
+                        badge = {
+                            if (unreadNotifs > 0) {
+                                Badge { Text(unreadNotifs.coerceAtMost(99).toString(), fontSize = 10.sp) }
+                            }
+                        }
+                    ) {
+                        IconButton(onClick = onNavigateToNotifications) {
+                            Icon(Icons.Rounded.Notifications, "Notifications", tint = Color.White)
+                        }
+                    }
+                    IconButton(onClick = onNavigateToMyProfile) {
+                        Icon(Icons.Rounded.AccountCircle, "My profile", tint = Color.White)
+                    }
+                    if (canBrowseProfileDirectory) {
+                        IconButton(onClick = onNavigateToProfileDirectory) {
+                            Icon(Icons.Rounded.People, "People", tint = Color.White)
+                        }
+                    }
+                    if (useGlobalQueue) {
                         IconButton(onClick = onNavigateToComplaints) {
                             Icon(Icons.Rounded.ListAlt, "All Complaints", tint = Color.White)
                         }
@@ -92,8 +136,8 @@ fun DashboardScreen(
         floatingActionButton = {
             ExtendedFloatingActionButton(
                 onClick        = onNavigateToCreate,
-                icon           = { Icon(Icons.Rounded.Add, null) },
-                text           = { Text("New Complaint") },
+                icon           = { Icon(Icons.Rounded.Add, null, tint = Color.White) },
+                text           = { Text("New Complaint", color = Color.White) },
                 containerColor = Primary,
                 contentColor   = Color.White
             )
@@ -105,16 +149,47 @@ fun DashboardScreen(
             isRefreshing = isRefreshing,
             onRefresh    = {
                 isRefreshing = true
-                complaintViewModel.fetchComplaints(isAdmin = isAdmin)
+                complaintViewModel.fetchComplaints(useGlobalComplaintQueue = useGlobalQueue)
             }
         ) {
             LazyColumn(
                 modifier       = Modifier.fillMaxSize().background(SurfaceBg),
                 contentPadding = PaddingValues(bottom = 100.dp)
             ) {
-                item { WelcomeCard(username = currentUser?.username ?: "User", isAdmin = isAdmin) }
+                item { WelcomeCard(username = currentUser?.username ?: "User", role = currentUser?.role ?: "USER") }
 
-                if (isAdmin) {
+                if (useGlobalQueue) {
+                    item {
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 16.dp, vertical = 6.dp),
+                            onClick = onNavigateToTeamTasks,
+                            shape = RoundedCornerShape(12.dp),
+                            colors = CardDefaults.cardColors(containerColor = CardBg),
+                            elevation = CardDefaults.cardElevation(2.dp)
+                        ) {
+                            Row(
+                                Modifier.padding(16.dp),
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Icon(Icons.Rounded.Groups, null, tint = Primary, modifier = Modifier.size(28.dp))
+                                Spacer(Modifier.width(14.dp))
+                                Column(Modifier.weight(1f)) {
+                                    Text("Team & tasks", fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                                    Text(
+                                        "Members and assignee buckets are built from complaints in your workspace (no fake users).",
+                                        fontSize = 12.sp,
+                                        color = TextSecondary
+                                    )
+                                }
+                                Icon(Icons.Rounded.ChevronRight, null, tint = TextHint)
+                            }
+                        }
+                    }
+                }
+
+                if (useGlobalQueue) {
                     item { StatsRow(complaints) }
                 }
 
@@ -125,7 +200,7 @@ fun DashboardScreen(
                         verticalAlignment     = Alignment.CenterVertically
                     ) {
                         Text(
-                            text       = if (isAdmin) "Recent Complaints" else "My Complaints",
+                            text       = if (useGlobalQueue) "Recent complaints" else "My complaints",
                             style      = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold
                         )
@@ -149,7 +224,7 @@ fun DashboardScreen(
                         item {
                             ErrorView(
                                 message = (loadState as LoadState.Error).message,
-                                onRetry = { complaintViewModel.fetchComplaints(isAdmin = isAdmin) }
+                                onRetry = { complaintViewModel.fetchComplaints(useGlobalComplaintQueue = useGlobalQueue) }
                             )
                         }
                     }
@@ -158,10 +233,15 @@ fun DashboardScreen(
                     }
                     else -> {
                         items(complaints.take(5)) { complaint ->
+                            val ex = complaint.id?.let { extrasMap[it] }
                             ComplaintCard(
                                 complaint = complaint,
-                                showUser  = isAdmin,
-                                onClick   = {
+                                showUser = useGlobalQueue,
+                                assignee = ex?.assignee?.takeIf { it.isNotBlank() }
+                                    ?: complaint.assignee?.takeIf { it.isNotBlank() },
+                                progressPercent = ex?.progressPercent?.takeIf { it > 0 }
+                                    ?: complaint.progressPercent?.takeIf { it > 0 },
+                                onClick = {
                                     complaintViewModel.setSelectedComplaint(complaint)
                                     onNavigateToDetail()
                                 }
@@ -175,7 +255,7 @@ fun DashboardScreen(
 }
 
 @Composable
-private fun WelcomeCard(username: String, isAdmin: Boolean) {
+private fun WelcomeCard(username: String, role: String) {
     Box(
         modifier = Modifier
             .fillMaxWidth()
@@ -193,7 +273,13 @@ private fun WelcomeCard(username: String, isAdmin: Boolean) {
                 Text("Hello, $username 👋", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color.White)
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    if (isAdmin) "Admin Dashboard" else "Manage your complaints",
+                    when (role.uppercase()) {
+                        "ADMIN" -> "Admin workspace"
+                        "MANAGER" -> "Manager workspace"
+                        "SUPPORT" -> "Support workspace"
+                        "CEO" -> "Executive overview"
+                        else -> "Manage your complaints"
+                    },
                     fontSize = 13.sp,
                     color    = Color.White.copy(alpha = 0.85f)
                 )
@@ -204,7 +290,7 @@ private fun WelcomeCard(username: String, isAdmin: Boolean) {
                     .background(Color.White.copy(alpha = 0.2f))
                     .padding(horizontal = 12.dp, vertical = 5.dp)
             ) {
-                Text(if (isAdmin) "ADMIN" else "USER", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                Text(role.uppercase(), color = Color.White, fontWeight = FontWeight.Bold, fontSize = 12.sp)
             }
         }
     }
@@ -232,7 +318,7 @@ private fun StatsRow(complaints: List<ComplaintModel>) {
                 Column(modifier = Modifier.padding(vertical = 12.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                     Text(count.toString(), fontSize = 22.sp, fontWeight = FontWeight.Bold, color = color)
                     Spacer(Modifier.height(2.dp))
-                    Text(label, fontSize = 9.sp, color = TextSecondary)
+                    Text(label, fontSize = 11.sp, color = TextSecondary)
                 }
             }
         }
